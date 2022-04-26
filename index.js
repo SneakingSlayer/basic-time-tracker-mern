@@ -23,7 +23,6 @@ app.use(cors());
 app.use("/api/v1", computersRoute);
 app.use("/api/v1", sessionsRoute);
 app.use("/api/v1", authRoute);
-
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "/client/build")));
   app.get("*", (req, res) => {

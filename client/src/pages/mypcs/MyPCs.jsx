@@ -166,7 +166,7 @@ export const MyPCs = () => {
               setPcNo(
                 computers.length > 0
                   ? "0" + (computers.length + 1).toString()
-                  : ""
+                  : "01"
               );
             }}
             type="button"

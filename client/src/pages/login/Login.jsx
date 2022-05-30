@@ -39,7 +39,7 @@ export const Login = () => {
   return (
     <div className=" overflow-auto h-screen w-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-slate-50 dark:bg-gray-900">
       <div className="max-w-4xl flex w-full space-y-8 bg-white  rounded-2xl shadow-lg shadow-indigo-300/20 dark:bg-gray-800 dark:border-gray-700 dark:shadow-none">
-        <div className="hidden sm:block rounded-l-2xl w-full object-cover bg-[url('https://res.cloudinary.com/westore/image/upload/v1650688737/Untitled_design_15_-min_dq5sgp.png')] w-full bg-indigo-600"></div>
+        <div className="hidden sm:block rounded-l-2xl bg-no-repeat object-cover bg-[url('https://res.cloudinary.com/westore/image/upload/v1653873436/onur-binay-auf3GwpVaOM-unsplash_j2qgg6.jpg')] w-full bg-indigo-600"></div>
         <div className="w-full p-14">
           <div className="text-center flex justify-center flex-wrap">
             <h2 className="mt-2 text-2xl font-bold text-slate-800 flex items-center dark:text-white">
